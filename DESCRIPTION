@@ -1,0 +1,29 @@
+Package: vkR
+Type: Package
+Title: Access to VK API via R
+Version: 0.1
+Date: 2015-02-26
+Author: Dmitriy Sorokin <dementiy@yandex.ru>
+Maintainer: Dmitriy Sorokin <dementiy@yandex.ru>
+Description: Provides an interface to the VK API
+Depends: R (>= 3.0.0)
+Imports: httr, jsonlite, XML
+Suggests: stringr, tm, plyr, dplyr, reshape2, jpeg, igraph, rgexf,
+        httpuv
+License: GPL-3
+RoxygenNote: 5.0.1
+Collate: 'auth.R' 'database.R' 'friends.R' 'groups.R'
+        'igraph_gefx_exporter.R' 'likes.R' 'messages.R' 'network.R'
+        'queries.R' 'status.R' 'search.R' 'users.R' 'utils.R' 'vkR.R'
+        'wall.R'
+Built: R 3.3.2; ; 2016-11-20 23:25:09 UTC; windows
+RemoteType: github
+RemoteHost: https://api.github.com
+RemoteRepo: vkR
+RemoteUsername: Dementiy
+RemoteRef: master
+RemoteSha: ed5df654b85bdcac87ddf60d28d14268caa77b6f
+GithubRepo: vkR
+GithubUsername: Dementiy
+GithubRef: master
+GithubSHA1: ed5df654b85bdcac87ddf60d28d14268caa77b6f
